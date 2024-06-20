@@ -3,7 +3,8 @@ public class MESSAGE extends Message {
     int Proc_Num; int Sn; boolean IsToken;
     public MESSAGE(int Proc_ID,int ProcSeqNum,boolean ContainsToken)
     {
-        this.Proc_Num=Proc_ID;
+        /*testComment*/
+	this.Proc_Num=Proc_ID;
         this.Sn=ProcSeqNum;
         this.IsToken=ContainsToken;
     }
